@@ -1,24 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
+/* Redefinir os estilos padrão do navegador e garantir uma base consistente para estilos personalizados. */
 * {
   margin: 0;
   padding: 0;
 }
 
+/* Define a fonte padrão para todo o corpo do documento */
 body {
   font-family: "Poppins", sans-serif;
 }
 
+/* Define o comportamento de rolagem suave para a página. */
 html {
   scroll-behavior: smooth;
 }
 
+/* Define a cor cinza para todos os paragrafos do documento */
 p {
   color: rgb(85, 85, 85);
 }
 
-/* TRANSITION */
+/* Transição */
 
+/* a transição será aplicada de forma suave e gradual nos links e botôes. */
 a,
 .btn {
   transition: all 300ms ease;

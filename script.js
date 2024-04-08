@@ -1,3 +1,4 @@
+// Função para abrir o menu Hamburguer
 function toggleMenu() {
     const menu = document.querySelector(".menu-links");
     const icon = document.querySelector(".hamburger-icon");

@@ -1,3 +1,8 @@
+/* Aplicação de dimeções de tela do dispositivo
+Existem três conjuntos de regras para diferentes tamanhos de tela:
+Max-width: 1400px:
+Max-width: 1200px:
+Max-width: 600px: */
 @media screen and (max-width: 1400px) {
     #profile {
       height: 83vh;
