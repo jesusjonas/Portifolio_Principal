@@ -248,39 +248,29 @@ button:focus {
 }
 
 
-/* butão 2 */
-.btn {
-  font-weight: 600;
-  display: flex;
-  place-items: center;
-  background: #e3edf7;
-  padding: 1.4rem;
-  border-radius: 10px;
-  box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
-	      -6px -6px 10px -1px rgba(255,255,255,0.7);
-  border: 1px solid rgba(0,0,0,0);
+/* butão Linkedin e Git */
+
+.icon-linkedin, .icon-git {
+  height: 2.5rem;
+}
+
+.bx.bxl-square {
+  width: 100px;
+  height: 100px;
+  border: none;
+  transition: 0.3s;
   cursor: pointer;
-  transition: transform 0.5s;
 }
 
-.btn:hover {
-  box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
-	      inset -4px -4px 6px -1px rgba(255,255,255,0.7),
-	      -0.5px -0.5px 0px rgba(255,255,255,1),
-	      0.5px 0.5px 0px rgba(0,0,0,0.15),
-	      0px 12px 10px -10px rgba(0,0,0,0.05);
-  border: 1px solid rgba(0,0,0,0.1);
-  transform: translateY(0.5em);
+
+.bx.bxl-square:nth-child(1):hover {
+  background-color: #2753a7;
 }
 
-.btn svg {
-  transition: transform 0.5s;
+.bx.bxl-square:nth-child(2):hover {
+  background-color: #cd242b;
 }
 
-.btn:hover svg {
-  transform: scale(0.9);
-  fill: #333333;
-}
 
 
 
